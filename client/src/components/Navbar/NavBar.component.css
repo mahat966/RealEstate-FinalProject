@@ -1,0 +1,36 @@
+.navbar {
+  width: 100%;
+  background-color: black;
+  padding: 0;
+  font-weight: 400;
+}
+
+.active_navLink {
+  background-color: #ad09f9;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-item a {
+  text-decoration: none;
+  padding: 20px 15px;
+  float: left;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+
+  width: 100%;
+}
+
+.nav-item a:hover {
+  background-color: #ad09f9;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    text-align: center;
+  }
+}

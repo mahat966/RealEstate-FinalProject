@@ -1,0 +1,72 @@
+.footerText {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.mokshyaFooter {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.mokshyaFooter a {
+  color: #ad09f9;
+  text-decoration: none;
+}
+
+.footerSection {
+  background-color: black;
+  color: white;
+}
+
+.phone {
+  float: left;
+  margin: 2px;
+}
+
+.footerInfo {
+  padding: 40px;
+  text-align: center;
+}
+
+.footerSocialLinks {
+  text-align: center;
+}
+
+.footerInfo h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footerInfo p {
+  color: rgb(224, 217, 217);
+}
+
+.footerIcons {
+  font-size: 20px;
+  margin: 10px 3px 20px 5px;
+}
+
+@media (max-width: 800px) {
+  .footerInfo {
+    font-size: 12px;
+    padding: 20px;
+  }
+
+  .career_form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .footerInfo h4 {
+    font-size: 20px;
+  }
+  .footerSocialLinks h2 {
+    font-size: 25px;
+  }
+  .footerInfo .row .col-md-3 {
+    width: 50%;
+  }
+  .footerSection {
+  }
+}

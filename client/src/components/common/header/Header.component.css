@@ -1,0 +1,43 @@
+.logo {
+  float: left;
+  padding: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+
+.logo img {
+  height: 80px;
+  padding: 0px;
+  overflow: hidden;
+  float: left;
+}
+.logo h1 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.logo p {
+  float: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.headerList li {
+  float: left;
+}
+@media (max-width: 1268px) {
+  .logo {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 968px) {
+  .logo p {
+    font-size: 15px;
+  }
+}

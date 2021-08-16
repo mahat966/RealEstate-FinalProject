@@ -1,0 +1,69 @@
+.designImages img {
+  width: 100%;
+  height: 300px;
+  border: 10px solid transparent;
+  -webkit-transition: border 0.4s ease-out;
+  -moz-transition: border 0.4s ease-out;
+  -o-transition: border 0.4s ease-out;
+  transition: border 0.4s ease-out;
+}
+
+.designImages img:hover {
+  border: 0px solid transparent;
+  transition: border 0.4s ease-in;
+  -webkit-transition: border 0.4s ease-in;
+  -moz-transition: border 0.4s ease-in;
+  -o-transition: border 0.4s ease-in;
+}
+
+.designImages {
+  text-align: center;
+  width: 100%;
+}
+
+.designPage {
+  margin: 20px 0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.designImages .container .row .col-md-4 {
+  margin-top: 0px;
+  padding: 10px;
+}
+
+.designImages .container {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.designImages h2 {
+  width: 100%;
+  font-weight: bolder;
+  display: inline-block;
+  padding: 0;
+  margin: 5px 0px;
+  text-transform: uppercase;
+}
+
+.designImages button {
+  float: right;
+}
+
+@media (max-width: 1100px) {
+  .designs_header h2 {
+    font-size: 22px;
+  }
+  .designs_header a {
+    float: none;
+    font-size: 16px;
+  }
+  .designImages button {
+    float: none;
+    width: 100%;
+  }
+
+  .designImages .container {
+    padding: 10px 40px;
+  }
+}

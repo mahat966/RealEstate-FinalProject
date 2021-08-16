@@ -1,0 +1,35 @@
+.galleryImages {
+  padding: 50px 40px;
+}
+
+.galleryImages img {
+  height: 320px;
+  width: 100%;
+  border: 10px solid transparent;
+  -webkit-transition: border 0.4s ease-out;
+  -moz-transition: border 0.4s ease-out;
+  -o-transition: border 0.4s ease-out;
+  transition: border 0.4s ease-out;
+}
+
+.galleryImages img:hover {
+  border: 0px solid transparent;
+  transition: border 0.4s ease-in;
+  -webkit-transition: border 0.4s ease-in;
+  -moz-transition: border 0.4s ease-in;
+  -o-transition: border 0.4s ease-in;
+}
+
+.galleryImages .row .col-md-4 {
+  margin: 10px 0px;
+}
+
+.galleryImages p {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px rgb(48, 46, 46);
+}

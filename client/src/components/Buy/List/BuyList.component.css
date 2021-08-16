@@ -1,0 +1,64 @@
+.buyList_contents .row {
+  background-color: #ebf8ff;
+  padding: 30px 60px;
+  margin-bottom: 20px;
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+}
+
+.buyList_contents h2 {
+  color: #ad09f9;
+  font-weight: bold;
+}
+
+.buyList_contents p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.buyList_contents img {
+  height: 300px;
+  width: 100%;
+  border: 10px solid transparent;
+  -webkit-transition: border 0.4s ease-out;
+  -moz-transition: border 0.4s ease-out;
+  -o-transition: border 0.4s ease-out;
+  transition: border 0.4s ease-out;
+}
+
+.buyList_contents img:hover {
+  border: 0px solid transparent;
+  transition: border 0.4s ease-in;
+  -webkit-transition: border 0.4s ease-in;
+  -moz-transition: border 0.4s ease-in;
+  -o-transition: border 0.4s ease-in;
+}
+
+.buyList_contents p {
+  text-align: justify;
+}
+
+@media (max-width: 800px) {
+  .buyList_contents img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 280px;
+    margin-top: 20px;
+  }
+  .buyList_contents .row {
+    padding: 10px 20px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .buyList_contents h2 {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+}
